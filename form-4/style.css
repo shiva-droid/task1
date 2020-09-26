@@ -1,0 +1,160 @@
+body {
+
+    overflow-x: hidden;
+    height: 100%;
+    background-image: linear-gradient(to right, #df7394, #db7373);
+    background-repeat: no-repeat
+}
+
+input,
+textarea {
+ 
+  
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: rgb(8, 8, 8);
+    
+  
+} 
+.form-control
+{
+  
+    background: transparent;
+    box-sizing: border-box;
+    border:0;
+    border-bottom: 1px solid white;
+   
+
+}
+
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+     background: transparent;
+    outline-width: 0;
+    font-weight: 400;
+  
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.card {
+ 
+    border: none;
+ background-color: whitesmoke;
+}
+
+.card1 {
+    width: 50%;
+    padding: 40px 30px 10px 30px;
+    background-color: #000000;
+    
+}
+
+.card2 {
+    width: 50%;
+    background-image: linear-gradient(to right, #d4d3d3, #e4eaee);
+   
+}
+
+#logo {
+    width: 70px;
+    height: 60px
+}
+.booking
+{
+    display: flex;
+}
+.heading {
+    margin-bottom: 60px !important;
+    color: #fdfdfd;
+
+}
+.heading1 {
+    margin-bottom: 60px !important;
+    color: #424cdb;
+
+}
+.badgee
+{
+    color: #080708;
+    background-color:#df7394;
+}
+
+
+:-ms-input-placeholder {
+    color: rgb(199, 184, 184) !important
+}
+
+::-ms-input-placeholder {
+    color: rgb(248, 246, 246) !important
+}
+
+.form-control-label {
+    font-size: 12px;
+    margin-left: 15px
+}
+
+.msg-info {
+    padding-left: 15px;
+    margin-bottom: 30px
+}
+.btn-white
+{
+    background-color: white;
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    color: #000
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 50px !important
+}
+
+.sm-text {
+    font-size: 15px
+}
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width: 100%;
+        padding: 40px 30px 10px 30px
+    }
+
+    .card2 {
+        width: 100%
+    }
+
+    .right {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .img-responsive
+  {
+      width: 100%;
+  }
+   
+
+
+
+}
